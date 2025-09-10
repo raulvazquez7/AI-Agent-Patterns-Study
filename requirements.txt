@@ -1,0 +1,17 @@
+# --- LangChain Core ---
+langchain
+langchain-core
+langchain-openai
+langchain-google-genai
+
+# --- Environment & Config ---
+python-dotenv
+pydantic 
+
+# --- LangGraph Agent ---
+langgraph
+langchain-postgres
+langgraph-checkpoint-postgres
+psycopg[binary]
+langgraph-cli[inmem]
+langsmith

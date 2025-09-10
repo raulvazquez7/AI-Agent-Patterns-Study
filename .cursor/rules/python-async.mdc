@@ -1,0 +1,14 @@
+---
+description: 
+globs: .py
+alwaysApply: false
+---
+When suggesting Python code and the task is mainly I/O-bound (e.g. HTTP requests, database access, disk or network I/O), first recommend a well-structured asynchronous version.
+
+Use async/await with mature libraries 
+
+Flag any code that would block the event loop, and suggest run_in_threadpool or another strategy.
+
+Briefly mention the expected benefit (e.g. lower latency, higher throughput) and the requirements
+
+If the added complexity outweighs the benefit (e.g. for a short script or a single call), explain why staying synchronous might be more pragmatic.

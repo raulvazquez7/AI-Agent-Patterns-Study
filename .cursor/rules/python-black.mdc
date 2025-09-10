@@ -1,0 +1,31 @@
+---
+description: 
+globs: .py
+alwaysApply: false
+---
+**3. Python Black Formatting (`black.mdc`)**
+
+```mdc
+---
+description: Ensures Python code formatting adheres to the Black style guide.
+globs: ["*.py"]
+alwaysApply: false
+---
+
+# Black Code Formatting Rules for Python
+
+- Adhere strictly to the Black code style. Black is non-negotiable and has minimal configuration.
+- Default line length is 88 characters.
+- Use double quotes (`"`) for strings where possible, but Black will handle consistency.
+- Black handles indentation, whitespace, trailing commas, and line breaks automatically.
+- Ensure code passes `black .` check before committing.
+- Integrate Black into your pre-commit hooks or CI/CD pipeline.
+
+## Example Integration (pre-commit)
+```yaml
+# .pre-commit-config.yaml
+repos:
+-   repo: <https://github.com/psf/black>
+    rev: 23.3.0 # Use a recent stable version
+    hooks:
+    -   id: black

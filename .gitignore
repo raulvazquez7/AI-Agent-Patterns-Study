@@ -3,3 +3,5 @@
 
 # Ignore Python cache
 __pycache__/
+
+.python-version
