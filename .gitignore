@@ -1,7 +1,27 @@
-# Ignore environment variables files
+# Pythin version
+.python-version
+
+# Environment variables
 .env
 
-# Ignore Python cache
-__pycache__/
+# Virtual Environment
+.venv/
+venv/
+env/
 
-.python-version
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE configuration files
+.vscode/
+.idea/
+
+# macOS specific files
+.DS_Store
+
+# Jupyter Notebook files
+.ipynb
+
+# LangGraph Studio state
+.langgraph_api/
