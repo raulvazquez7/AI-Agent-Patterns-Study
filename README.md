@@ -16,7 +16,7 @@ All credit for the original concepts, techniques, and foundational examples belo
 
 ## Repository Structure
 
-The repository is organized by pattern, with each technique from the book in its own numbered folder. Each folder will contain the code implementation and a specific `README.md` with my notes and findings on that particular pattern.
+The repository is organized by pattern, with each technique from the book in its own numbered folder. Each folder will contain the code implementation and a specific `README.md` with my notes and specifix examples on that particular pattern.
 
 -   `01_prompt_chaining/`
 -   `02_.../`
