@@ -14,6 +14,13 @@ All credit for the original concepts, techniques, and foundational examples belo
 -   **Book**: *Agentic Design Patterns: A Hands-On Guide to Building Intelligent Systems*
 -   **Source**: You can find more about the book's content [here](https://docs.google.com/document/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/preview).
 
+## Author's Code vs. Personal Practice
+
+In each chapter's directory, you will find two main types of scripts:
+
+*   `*_author_example_langchain.py`: The original code provided by the book's author to demonstrate a specific pattern.
+*   `graph.py`: My own, more advanced implementation of the pattern. I use this script to practice, experiment, and deepen my understanding of the concepts using langgraph studio. 
+
 ## Repository Structure
 
 The repository is organized by pattern, with each technique from the book in its own numbered folder. Each folder will contain the code implementation and a specific `README.md` with my notes and findings on that particular pattern.

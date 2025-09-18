@@ -1,0 +1,29 @@
+# This is a conceptual configuration file for the OpenEvolve agent.
+# It guides the LLM on how to approach the code modification task.
+
+# Specifies the language model to be used for generating code modifications.
+# It can be any OpenAI-compatible model.
+model: "gpt-4-turbo"
+
+# The main instruction or prompt for the evolution process.
+# This tells the agent its goal.
+prompt: |
+  You are an expert Python programmer. Your task is to optimize the provided
+  `sort_list` function. The function currently uses a bubble sort algorithm.
+  
+  Your goal is to modify the code to make it more efficient (faster)
+  while ensuring it still correctly sorts the list.
+  
+  Consider more advanced sorting algorithms like Quicksort, Mergesort,
+  or simply using Python's built-in `sorted()` function or `.sort()` method,
+  as they are highly optimized.
+  
+  The evaluation function will score your modifications based on correctness
+  and execution time. A lower execution time is better.
+
+# Defines the objectives for the multi-objective optimization.
+# 'max' means the agent will try to maximize this value.
+# 'min' means the agent will try to minimize it.
+objectives:
+  correctness: "max"
+  execution_time: "min"

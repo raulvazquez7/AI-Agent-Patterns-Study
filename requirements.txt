@@ -11,7 +11,12 @@ pydantic
 # --- LangGraph Agent ---
 langgraph
 langchain-postgres
+langchain_community
 langgraph-checkpoint-postgres
 psycopg[binary]
 langgraph-cli[inmem]
 langsmith
+
+# --- Other ---
+tavily-python
+requests

@@ -1,1 +1,27 @@
+# Pythin version
+.python-version
+
+# Environment variables
 .env
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE configuration files
+.vscode/
+.idea/
+
+# macOS specific files
+.DS_Store
+
+# Jupyter Notebook files
+.ipynb
+
+# LangGraph Studio state
+.langgraph_api/

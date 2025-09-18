@@ -25,3 +25,5 @@ __pycache__/
 
 # LangGraph Studio state
 .langgraph_api/
+
+.cursor/
